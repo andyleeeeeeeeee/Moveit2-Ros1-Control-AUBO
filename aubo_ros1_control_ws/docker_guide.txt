@@ -1,0 +1,11 @@
+1. build the docker
+docker build -t aubo_ros1 .
+
+2. launch a container
+docker run --network=host -it --rm --name aubo_interface aubo_ros1 bash
+
+3. launch other parallel containers
+docker exec -it aubo_interface bash 
+
+4. launch aubo ros1 driver
+roslaunch aubo_i5_moveit_config moveit_planning_execution.launch

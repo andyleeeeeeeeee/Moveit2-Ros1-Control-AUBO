@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>aubo_description</name>
+  <version>2.0.0</version>
+  <description>The aubo_description package</description>
+  <author email="liug@our-robotics.com">Allen Liu</author>
+  <maintainer email="liug@our-robotics.com">Allen Liu</maintainer>
+  <url type="website">http://wiki.ros.org/aubo_description</url>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+</package>
